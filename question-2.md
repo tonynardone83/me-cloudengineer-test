@@ -6,7 +6,7 @@
 <p>I would consider building a Transit Gateway in a separate AWS Account, this will facilitate the traffic between accounts and on-premise for all attached VPC&rsquo;s, it will also provide a more scalable solution to peering, additionally there is a reduction to the configuration required on the on-premise VPN Firewall.</p>
 <p>&nbsp;</p>
 <p><strong>High Level Design (based off my approach):</strong></p>
-<p><strong><img src="https://github.com/tonynardone83/me-cloudengineer-test/blob/master/images/transit-gateway.png" alt="" /><img src="https://github.com/tonynardone83/me-cloudengineer-test/blob/master/images/transit-gateway.png" alt="" /></strong></p>
+<p><strong><img src="https://github.com/tonynardone83/me-cloudengineer-test/blob/master/images/transit-gateway.png" alt="" /></strong></p>
 <p><strong>Implementation Explained:</strong></p>
 <ul>
 <li>Attach VPC B and VPC C to the Transit Gateway in Account A</li>
